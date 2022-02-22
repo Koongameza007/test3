@@ -24,8 +24,8 @@ class MainActivity : AppCompatActivity() {
             ref.child(id.toString()).setValue(Employee).addOnCompleteListener{
 
                 Toast.makeText(applicationContext, "Complete", Toast.LENGTH_LONG).show()
-                textView.setText("")
-                textView2.setText("")
+                editTextTextPersonName.setText("")
+                editTextTextPersonName2.setText("")
             }
 
         }
